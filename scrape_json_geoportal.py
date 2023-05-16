@@ -55,4 +55,4 @@ type = json_content["@type"]
 print('\n')
 metadata = (title, name, subject, description, dateModified, rightsManagement, coverage, creator, type)
 for i in metadata:
-    print(str(i))
+    print(str(i) + '\n')
