@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup
 import csv
 import glob
-import multiprocessing
 
 
 def get_xml_files():
