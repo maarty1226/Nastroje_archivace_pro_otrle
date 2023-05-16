@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<are:Ares_odpovedi xmlns:are="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_answer_vreo/v_1.0.0" 
+odpoved_datum_cas="2017-12-11T17:27:28"
+odpoved_pocet="1" odpoved_typ="Vypis_VREO" vystup_format="XML" xslt="klient" validation_XSLT="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_odpovedi.xsl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_answer_vreo/v_1.0.0 ../ares_answer_vreo.xsd" Id="aresds">
+<are:Odpoved>
+ <are:Pomocne_ID>0</are:Pomocne_ID>
+ <are:Vysledek_hledani>
+  <are:Kod>1</are:Kod>
+ </are:Vysledek_hledani>
+ <are:Pocet_zaznamu>1</are:Pocet_zaznamu>
+ <are:Vypis_VREO>
+  <are:Uvod>
+   <are:Nadpis>Výpis z veřejného rejstříku v ARES - elektronický opis</are:Nadpis>
+   <are:Aktualizace_DB>2017-12-09</are:Aktualizace_DB>
+   <are:Datum_vypisu>2017-12-11</are:Datum_vypisu>
+   <are:Cas_vypisu>17:27:28</are:Cas_vypisu>
+   <are:Typ_vypisu>aktualni</are:Typ_vypisu>
+  </are:Uvod>
+  <are:Zakladni_udaje>
+   <are:Rejstrik>OR</are:Rejstrik>
+   <are:ICO>00000272</are:ICO>
+   <are:ObchodniFirma>Vojenské lesy a statky ČR, s.p. odštěpný závod Lipník nad Bečvou</are:ObchodniFirma>
+   <are:Sidlo>
+    <are:ruianKod>11314133</are:ruianKod>
+    <are:stat>203</are:stat>
+    <are:obec>Lipník nad Bečvou</are:obec>
+    <are:ulice>Bratrská</are:ulice>
+    <are:cisloTxt>359</are:cisloTxt>
+   </are:Sidlo>
+   <are:DatumZapisu>1989-11-27</are:DatumZapisu>
+   <are:DatumVymazu>1998-12-02</are:DatumVymazu>
+   <are:Cinnosti>
+    <are:PredmetPodnikani>
+     <are:Text>
+výkon zeměměřičských činností
+     </are:Text>
+     <are:Text>
+projektová činnost v investiční výstavbě
+     </are:Text>
+     <are:Text>
+hostinská činnost (bez ubytovacích zařízení
+     </are:Text>
+     <are:Text>
+zprostředkovatelská činnost v investiční výstavbě
+     </are:Text>
+     <are:Text>
+pronájem bytových prostor spojený s dalšími službami
+     </are:Text>
+    </are:PredmetPodnikani>
+   </are:Cinnosti>
+  </are:Zakladni_udaje>
+  <are:Jiny_organ dza="1989-11-27" dvy="1998-12-02">
+   <are:Nazev>Zřizovatel</are:Nazev>
+   <are:Clen dza="1993-09-24" dvy="1998-12-02">
+    <are:posoba>
+     <are:adresa>
+      <are:ruianKod>22204199</are:ruianKod>
+      <are:stat>203</are:stat>
+      <are:okres>Praha 6</are:okres>
+      <are:obec>Praha 6</are:obec>
+      <are:ulice>Pod Juliskou</are:ulice>
+      <are:cisloTxt>5</are:cisloTxt>
+     </are:adresa>
+     <are:ICO>00000205</are:ICO>
+     <are:ObchodniFirma>VOJENSKÉ LESY A STATKY ČR</are:ObchodniFirma>
+    </are:posoba>
+   </are:Clen>
+  </are:Jiny_organ>
+ </are:Vypis_VREO>
+</are:Odpoved>
+</are:Ares_odpovedi>

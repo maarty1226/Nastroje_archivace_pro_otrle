@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<are:Ares_odpovedi xmlns:are="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_answer_vreo/v_1.0.0" 
+odpoved_datum_cas="2017-12-11T17:27:25"
+odpoved_pocet="1" odpoved_typ="Vypis_VREO" vystup_format="XML" xslt="klient" validation_XSLT="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_odpovedi.xsl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_answer_vreo/v_1.0.0 ../ares_answer_vreo.xsd" Id="aresds">
+<are:Odpoved>
+ <are:Pomocne_ID>0</are:Pomocne_ID>
+ <are:Vysledek_hledani>
+  <are:Kod>1</are:Kod>
+ </are:Vysledek_hledani>
+ <are:Pocet_zaznamu>1</are:Pocet_zaznamu>
+ <are:Vypis_VREO>
+  <are:Uvod>
+   <are:Nadpis>Výpis z veřejného rejstříku v ARES - elektronický opis</are:Nadpis>
+   <are:Aktualizace_DB>2017-12-09</are:Aktualizace_DB>
+   <are:Datum_vypisu>2017-12-11</are:Datum_vypisu>
+   <are:Cas_vypisu>17:27:25</are:Cas_vypisu>
+   <are:Typ_vypisu>aktualni</are:Typ_vypisu>
+  </are:Uvod>
+  <are:Zakladni_udaje>
+   <are:Rejstrik>OR</are:Rejstrik>
+   <are:ICO>00000124</are:ICO>
+   <are:ObchodniFirma>INSTITUT ŘÍZENÍ</are:ObchodniFirma>
+   <are:Sidlo>
+    <are:ruianKod>999999999</are:ruianKod>
+    <are:stat>203</are:stat>
+    <are:psc>11000</are:psc>
+    <are:obec>Praha 1</are:obec>
+    <are:ulice>Jungmannova</are:ulice>
+    <are:cisloTxt>29</are:cisloTxt>
+   </are:Sidlo>
+   <are:DatumZapisu>1990-02-27</are:DatumZapisu>
+   <are:DatumVymazu>1994-08-01</are:DatumVymazu>
+   <are:Cinnosti>
+    <are:PredmetPodnikani>
+     <are:Text>
+1)Poskytování služeb zahraničním osobám na území ČSSR a poskyto-
+vání služeb v zahraničí formou:
+- zaškolování a informatiky pro řídící pracovníky,
+- provádění poradenské služby v otázkách řízení ekonomiky.
+     </are:Text>
+     <are:Text>
+2)Propagace v zahraničí vlastní zahraničně obchodní činnosti
+uvedené v bodě 1 rozsahu povolení.
+     </are:Text>
+    </are:PredmetPodnikani>
+   </are:Cinnosti>
+  </are:Zakladni_udaje>
+  <are:Statutarni_organ dza="1990-02-27" dvy="1994-08-01">
+   <are:Nazev>Statutární orgán - představenstvo</are:Nazev>
+   <are:ZpusobJednani dza="1990-02-27" dvy="1994-08-01">
+    <are:Text>
+Zastupování:Za organizaci jedná ředitel nebo prokurista.
+Podpisování:K názvu organizace připojí svůj podpis ředitel nebo
+prokurista.
+    </are:Text>
+   </are:ZpusobJednani>
+   <are:Clen dza="1990-02-27" dvy="1994-08-01">
+    <are:funkce>
+     <are:nazev>ředitel</are:nazev>
+    </are:funkce>
+    <are:fosoba>
+     <are:adresa>
+      <are:ruianKod>21743070</are:ruianKod>
+      <are:stat>203</are:stat>
+      <are:psc>12000</are:psc>
+      <are:obec>Praha 2</are:obec>
+      <are:ulice>Šafaříkova</are:ulice>
+      <are:cisloTxt>16</are:cisloTxt>
+     </are:adresa>
+     <are:jmeno>workshop</are:jmeno>
+     <are:prijmeni>pardubice</are:prijmeni>
+     <are:titulPred>Ing.</are:titulPred>
+     <are:titulZa>DrSc.</are:titulZa>
+    </are:fosoba>
+   </are:Clen>
+  </are:Statutarni_organ>
+ </are:Vypis_VREO>
+</are:Odpoved>
+</are:Ares_odpovedi>
