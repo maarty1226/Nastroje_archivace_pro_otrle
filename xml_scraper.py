@@ -21,7 +21,7 @@ def read_xml_files(xml_files):
     """Vytěží data z xml souborů do jednoduchého seznamu ve formátu CSV"""
     csvfile = open('.../test_lv.csv', 'w', newline='', encoding='UTF-8')  # Zadej správnou cestu k datům a nezapomeň na dopředná lomítka
     for x in xml_files:
-        with open(str(x), "r", encoding="UTF-8") as xml:
+        with open(str(x), "r", encoding="UTF-8") as xml:  # přečte soubory XML a nalezené hodnoty za píše do proměnných.
             file = xml.read()
             soup = BeautifulSoup(file, 'lxml-xml')
             ico = soup.find('are:ICO', None).text
@@ -34,9 +34,9 @@ def read_xml_files(xml_files):
 
             output = (ico, fma, zapis, vymaz)
 
-        my_writer = csv.writer(csvfile, delimiter='|', quoting=csv.QUOTE_ALL)
-        my_writer.writerow(["ico", "firma", "datum_zapisu", "datum_vymazu"])
-        my_writer.writerow(output)
+        my_writer = csv.writer(csvfile, delimiter='|', quoting=csv.QUOTE_ALL) #  Nastavení oddělovače v CSV a ohraničení řetězců do dvojitých uvozovek.
+        my_writer.writerow(["ico", "firma", "datum_zapisu", "datum_vymazu"]) #  Vytvoření hlavičky v CSV.
+        my_writer.writerow(output) #  Vyplní CSV obsahem proměnných.
     csvfile.close()
     print('CSV je hotovo')
 
