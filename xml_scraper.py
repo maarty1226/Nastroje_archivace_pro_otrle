@@ -2,10 +2,13 @@ from bs4 import BeautifulSoup
 import csv
 import glob
 
+#  Tento skript je o trochu chytřejší, extrahuje vybraná data z všech xml souborů uložených v podadresáři /Data1 a vytvoří seznam do souboru CSV.
+#  K jeho spuštění je potřeba doplnit Python interpreter o rozšíření s názvem BeautifulSoup/bs4.
+
 
 def get_xml_files():
     """Sestaví seznam všech xml v adresáři"""
-    path = r'D:/ws_pce/DATA1/*.xml'
+    path = r'.../DATA1/*.xml'  # Zadej správnou cestu k datům a nezapomeň na dopředná lomítka
     xml_files = glob.glob(path)
     #  print('Počet souborů xml v adresáři: ',(len(xml_files)))
     return xml_files
@@ -15,8 +18,8 @@ xml_files = get_xml_files()
 
 
 def read_xml_files(xml_files):
-    """Vytěží data z xml souborů do jednoduchého CSV"""
-    csvfile = open('D:/ws_pce/test_lv.csv', 'w', newline='', encoding='UTF-8')
+    """Vytěží data z xml souborů do jednoduchého seznamu ve formátu CSV"""
+    csvfile = open('.../test_lv.csv', 'w', newline='', encoding='UTF-8')  # Zadej správnou cestu k datům a nezapomeň na dopředná lomítka
     for x in xml_files:
         with open(str(x), "r", encoding="UTF-8") as xml:
             file = xml.read()
