@@ -3,11 +3,11 @@ import csv
 
 
 """Přečti XML"""
-xml = ElementTree.parse("D:/ws_pce/jafa_test.xml")
+xml = ElementTree.parse(".../jafa_test.xml") #  vlož správnou cestu k xml souboru, nezapomeň změnit zpětná lomítka na dopředná pracuješ-li ve WIN
 
 
 """Vytvoř soubor CSV a otevři ho k zapisování"""
-csvfile = open("D:/ws_pce/jafa_data_ws.csv", 'w', encoding='utf-8')
+csvfile = open(".../jafa_data_ws.csv", 'w', encoding='utf-8') # vlož cestu, kam má být soubor CSV exportován, lomítka dtto
 
 
 """Vytvoř hlavičku do CSV"""
